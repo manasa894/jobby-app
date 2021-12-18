@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.nav_container {
+  background-color: #272727;
+  padding: 15px;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  width: 100px;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 150px;
+  }
+  .header_container {
+    justify-content: space-between;
+  }
+  .nav_container {
+    padding: 30px 60px;
+  }
+}
+
+.icons_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .icons_container {
+    display: none;
+  }
+}
+
+.icon {
+  color: #ffffff;
+  width: 50px;
+  height: 30px;
+}
+
+.logout-icon-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.home_jobs_container {
+  display: none;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .home_jobs_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.nav_text {
+  margin-left: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 23px;
+}
+
+.btn_container {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .btn_container {
+    display: flex;
+  }
+}
+
+.logout_btn {
+  color: #ffffff;
+  background-color: #4f46e5;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
