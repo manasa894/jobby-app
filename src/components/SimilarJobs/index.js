@@ -4,13 +4,14 @@ import {BsBriefcaseFill} from 'react-icons/bs'
 import './index.css'
 
 const SimilarJobs = props => {
-  const {similarJobData, employmentType} = props
+  const {similarJobData} = props
   const {
     companyLogoUrl,
     jobDescription,
     location,
     rating,
     title,
+    employmentType,
   } = similarJobData
   return (
     <li className="similar-job-li-container">

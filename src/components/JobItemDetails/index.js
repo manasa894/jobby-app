@@ -73,6 +73,7 @@ class JobItemDetails extends Component {
           location: eachItem.location,
           rating: eachItem.rating,
           title: eachItem.title,
+          employmentType: eachItem.employment_type,
         }),
       )
 
